@@ -6,7 +6,7 @@ describe("sort - standard classification", () => {
     expect(sort(10, 10, 10, 5)).toBe("STANDARD");
   });
 
-  it("returns STANDARD when mass is 0 (valid per requirement)", () => {
+  it("returns STANDARD when mass is 0", () => {
     expect(sort(10, 10, 10, 0)).toBe("STANDARD");
   });
 

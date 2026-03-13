@@ -29,7 +29,6 @@ export function sort(
   length: number,
   mass: number
 ): Stack {
-  // Defensive validation (real-world assumption)
   if (width <= 0 || height <= 0 || length <= 0 || mass < 0) {
     throw new Error("Invalid package dimensions or mass");
   }
